@@ -3,12 +3,12 @@ from pathlib import Path
 from datetime import datetime, timezone
 from mako.template import Template
 
-rfc_ish_fqdn = re.compile(r"^([a-z0-9-]{1,63}\.)+[a-z]{1,63}$")
+rfc1034_ish_fqdn = re.compile(r"^([a-z0-9-]{1,63}\.)+[a-z]{1,63}$")
 
 def validate_fqdn_poorly(dn):
     if len(dn) < 1 or len(dn) > 253:
         return False
-    return rfc_ish_fqdn.match(dn)
+    return rfc1034_ish_fqdn.match(dn)
 
 def check_fqdn(dn):
     if not validate_fqdn_poorly(dn):
