@@ -9,25 +9,27 @@ output_filename = "ai-spam-abp.txt"
 template = Template("""\
 [Adblock Plus]
 ! Version: ${ version }
-! Title: AI Spam
-! Description: Target websites that fraudulently host AI-generated content masquerading as human-authored
+! Title: ${ title }
+! Description: ${ description }
 ! Syntax: Adblock Plus Filter List
 ! Entries: ${ len(rows) }
 ! Last modified: ${ date }
 ! Expires: 1 hours
-! License: https://github.com/ai-nasir/blocklists/LICENSE
-! Homepage: https://github.com/ai-nasir/blocklists
+! License: ${ url }/LICENSE
+! Homepage: ${ url }
 
 % for row in rows:
 ||${ row }^
 % endfor
-"""))
 """)
 
 now = datetime.now(tz=timezone.utc)
 
 data = {
     "version": now.strftime("%Y%m%d%H%M%S"),
+    "title": "AI Spam",
+    "description": "Target websites that fraudulently host AI-generated content masquerading as human-authored",
+    "url": "https://github.com/ai-nasir/blocklists",
     "date": now.isoformat(),
     "rows": [
         "hairspeaks.net",
