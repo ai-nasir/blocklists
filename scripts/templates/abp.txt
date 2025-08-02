@@ -1,0 +1,14 @@
+[Adblock Plus]
+! Version: ${ version }
+! Title: ${ title }
+! Description: ${ description }
+! Syntax: Adblock Plus Filter List
+! Entries: ${ len(entries) }
+! Last modified: ${ last_modified }
+! Expires: 1 hours
+! License: ${ project_url }/LICENSE
+! Homepage: ${ project_url }
+
+% for entry in entries:
+||${ entry }^
+% endfor

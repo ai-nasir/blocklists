@@ -1,8 +1,9 @@
-import re
+import re, shutil, tempfile
 from datetime import datetime, timezone
 from itertools import pairwise
 from pathlib import Path
 from mako.template import Template
+from mako.lookup import TemplateLookup
 
 PROJECT_URL = "https://github.com/ai-nasir/blocklists"
 
@@ -33,29 +34,19 @@ def read_entries(source):
 
     return entries
 
+def render(template_file, output_dir, templates, data):
+    base = data['source']
+    output_filename = f"{base}-{template_file.stem}.txt"
 
-template = Template("""\
-[Adblock Plus]
-! Version: ${ version }
-! Title: ${ title }
-! Description: ${ description }
-! Syntax: Adblock Plus Filter List
-! Entries: ${ len(entries) }
-! Last modified: ${ last_modified }
-! Expires: 1 hours
-! License: ${ project_url }/LICENSE
-! Homepage: ${ project_url }
+    template = templates.get_template(template_file.name)
+    rendered_output = template.render_unicode(**data)
 
-% for entry in entries:
-||${ entry }^
-% endfor
-""")
+    target = output_dir / output_filename
+    target.write_bytes(rendered_output.encode())
+
 
 input_dir = Path.cwd().parent
-output_dir = Path.cwd().parent
-
 input_filename = "ai-spam.txt"
-output_filename = "ai-spam-abp.txt"
 
 source = input_dir / input_filename
 
@@ -64,6 +55,7 @@ entries = read_entries(source)
 now = datetime.now(tz=timezone.utc)
 
 data = {
+    "source": source.stem,
     "version": now.strftime("%Y%m%d%H%M%S"),
     "title": "AI Spam",
     "description": "Target websites that fraudulently host AI-generated content masquerading as human-authored",
@@ -72,7 +64,14 @@ data = {
     "entries": entries
 }
 
-rendered_output = template.render_unicode(**data)
 
-target = output_dir / output_filename
-target.write_bytes(rendered_output.encode())
+output_dir = Path.cwd().parent
+template_dir = Path.cwd() / "templates"
+
+temp_mako_path = tempfile.mkdtemp(prefix = "mako_modules")
+templates = TemplateLookup(directories=[template_dir], module_directory=temp_mako_path)
+
+for template_file in template_dir.glob('*.txt'):
+    render(template_file, output_dir, templates, data)
+
+shutil.rmtree(temp_mako_path);
