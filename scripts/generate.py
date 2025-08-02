@@ -14,8 +14,7 @@ def check_fqdn(dn):
     if not validate_fqdn_poorly(dn):
         raise ValueError(f'"{dn}" does not seem to be a valid lowercase fully qualified domain name')
 
-output_dir = "."
-output_filename = "ai-spam-abp.txt"
+
 
 template = Template("""\
 [Adblock Plus]
@@ -35,14 +34,19 @@ template = Template("""\
 """)
 
 input_dir = Path.cwd().parent
+output_dir = Path.cwd().parent
 
-source = input_dir / "ai-spam.txt"
-with source.open() as f:
-    rows = f.read().splitlines()
-rows = [row for row in rows if len(row) > 0]
+input_filename = "ai-spam.txt"
+output_filename = "ai-spam-abp.txt"
 
-for row in rows:
-    check_fqdn(row)
+source = input_dir / input_filename
+lines = source.read_text(encoding="utf-8", newline="").splitlines()
+
+entries = [entry for entry in lines if len(entry) > 0]
+
+for entry in entries:
+    check_fqdn(entry)
+
 
 
 now = datetime.now(tz=timezone.utc)
@@ -56,10 +60,7 @@ data = {
     "rows": rows
 }
 
-try:
-    rendered_output = template.render_unicode(**data)
-except:
-    print(mako_exceptions.text_error_template().render())
+rendered_output = template.render_unicode(**data)
 
-with open(f"{output_dir}{os.path.sep}{os.path.basename(output_filename)}", "wb") as outfile:
-    outfile.write(rendered_output.encode())
+target = output_dir / output_filename
+target.write_bytes(rendered_output.encode())
