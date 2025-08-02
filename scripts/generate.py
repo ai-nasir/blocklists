@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 from datetime import datetime, timezone
 from mako.template import Template
 
@@ -23,6 +24,10 @@ template = Template("""\
 % endfor
 """)
 
+source = Path.cwd().parent / "ai-spam.txt"
+with source.open() as f:
+    rows = f.read().splitlines()
+
 now = datetime.now(tz=timezone.utc)
 
 data = {
@@ -31,11 +36,7 @@ data = {
     "description": "Target websites that fraudulently host AI-generated content masquerading as human-authored",
     "url": "https://github.com/ai-nasir/blocklists",
     "date": now.isoformat(),
-    "rows": [
-        "hairspeaks.net",
-        "chefsresource.com",
-        "vtechinsider.com"
-    ]
+    "rows": rows
 }
 
 try:
