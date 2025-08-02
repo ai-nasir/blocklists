@@ -39,10 +39,10 @@ template = Template("""\
 ! Description: ${ description }
 ! Syntax: Adblock Plus Filter List
 ! Entries: ${ len(entries) }
-! Last modified: ${ date }
+! Last modified: ${ last_modified }
 ! Expires: 1 hours
-! License: ${ url }/LICENSE
-! Homepage: ${ url }
+! License: ${ project_url }/LICENSE
+! Homepage: ${ project_url }
 
 % for entry in entries:
 ||${ entry }^
@@ -65,8 +65,8 @@ data = {
     "version": now.strftime("%Y%m%d%H%M%S"),
     "title": "AI Spam",
     "description": "Target websites that fraudulently host AI-generated content masquerading as human-authored",
-    "url": "https://github.com/ai-nasir/blocklists",
-    "date": now.isoformat(),
+    "project_url": "https://github.com/ai-nasir/blocklists",
+    "last_modified": now.isoformat(),
     "entries": entries
 }
 
