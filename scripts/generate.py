@@ -1,8 +1,18 @@
-import os
+import os, re
 from pathlib import Path
 from datetime import datetime, timezone
 from mako.template import Template
 
+rfc_ish_fqdn = re.compile(r"^([a-z0-9-]{1,63}\.)+[a-z]{1,63}$")
+
+def validate_fqdn_poorly(dn):
+    if len(dn) < 1 or len(dn) > 253:
+        return False
+    return rfc_ish_fqdn.match(dn)
+
+def ensure_fqdn(dn):
+    if not validate_fqdn_poorly(dn):
+        raise ValueError(f'"{dn}" does not seem to be a valid lowercase fully qualified domain name')
 
 output_dir = "."
 output_filename = "ai-spam-abp.txt"
@@ -24,9 +34,14 @@ template = Template("""\
 % endfor
 """)
 
-source = Path.cwd().parent / "ai-spam.txt"
+input_dir = Path.cwd().parent
+
+source = input_dir / "ai-spam.txt"
 with source.open() as f:
     rows = f.read().splitlines()
+
+for row in rows:
+    ensure_fqdn(row)
 
 now = datetime.now(tz=timezone.utc)
 
