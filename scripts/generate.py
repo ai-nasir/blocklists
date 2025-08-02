@@ -22,14 +22,14 @@ template = Template("""\
 ! Title: ${ title }
 ! Description: ${ description }
 ! Syntax: Adblock Plus Filter List
-! Entries: ${ len(rows) }
+! Entries: ${ len(entries) }
 ! Last modified: ${ date }
 ! Expires: 1 hours
 ! License: ${ url }/LICENSE
 ! Homepage: ${ url }
 
-% for row in rows:
-||${ row }^
+% for entry in entries:
+||${ entry }^
 % endfor
 """)
 
@@ -57,7 +57,7 @@ data = {
     "description": "Target websites that fraudulently host AI-generated content masquerading as human-authored",
     "url": "https://github.com/ai-nasir/blocklists",
     "date": now.isoformat(),
-    "rows": rows
+    "entries": entries
 }
 
 rendered_output = template.render_unicode(**data)
