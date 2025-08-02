@@ -1,5 +1,6 @@
 import re
 from datetime import datetime, timezone
+from itertools import pairwise
 from pathlib import Path
 from mako.template import Template
 
@@ -21,6 +22,12 @@ def read_entries(source):
 
     for entry in entries:
         check_fqdn(entry)
+
+    entries.sort()
+
+    for a, b in pairwise(entries):
+        if a == b:
+            raise ValueError(f'"{a}" is duplicated')
 
     return entries
 
