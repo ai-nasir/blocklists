@@ -4,12 +4,14 @@ from itertools import pairwise
 from pathlib import Path
 from mako.template import Template
 
-rfc1034_ish_fqdn = re.compile(r"^([a-z0-9-]{1,63}\.)+[a-z]{1,63}$")
+PROJECT_URL = "https://github.com/ai-nasir/blocklists"
+
+RFC1034_ISH_FQDN = re.compile(r"^([a-z0-9-]{1,63}\.)+[a-z]{1,63}$")
 
 def validate_fqdn_poorly(dn):
     if len(dn) < 1 or len(dn) > 253:
         return False
-    return rfc1034_ish_fqdn.match(dn)
+    return RFC1034_ISH_FQDN.match(dn)
 
 def check_fqdn(dn):
     if not validate_fqdn_poorly(dn):
@@ -65,7 +67,7 @@ data = {
     "version": now.strftime("%Y%m%d%H%M%S"),
     "title": "AI Spam",
     "description": "Target websites that fraudulently host AI-generated content masquerading as human-authored",
-    "project_url": "https://github.com/ai-nasir/blocklists",
+    "project_url": PROJECT_URL,
     "last_modified": now.isoformat(),
     "entries": entries
 }
