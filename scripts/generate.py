@@ -10,7 +10,7 @@ def validate_fqdn_poorly(dn):
         return False
     return rfc_ish_fqdn.match(dn)
 
-def ensure_fqdn(dn):
+def check_fqdn(dn):
     if not validate_fqdn_poorly(dn):
         raise ValueError(f'"{dn}" does not seem to be a valid lowercase fully qualified domain name')
 
@@ -39,9 +39,11 @@ input_dir = Path.cwd().parent
 source = input_dir / "ai-spam.txt"
 with source.open() as f:
     rows = f.read().splitlines()
+rows = [row for row in rows if len(row) > 0]
 
 for row in rows:
-    ensure_fqdn(row)
+    check_fqdn(row)
+
 
 now = datetime.now(tz=timezone.utc)
 
