@@ -1,6 +1,6 @@
-import os, re
-from pathlib import Path
+import re
 from datetime import datetime, timezone
+from pathlib import Path
 from mako.template import Template
 
 rfc1034_ish_fqdn = re.compile(r"^([a-z0-9-]{1,63}\.)+[a-z]{1,63}$")
@@ -14,6 +14,15 @@ def check_fqdn(dn):
     if not validate_fqdn_poorly(dn):
         raise ValueError(f'"{dn}" does not seem to be a valid lowercase fully qualified domain name')
 
+def read_entries(source):
+    lines = source.read_text(encoding="utf-8", newline="").splitlines()
+
+    entries = [entry for entry in lines if len(entry) > 0]
+
+    for entry in entries:
+        check_fqdn(entry)
+
+    return entries
 
 
 template = Template("""\
@@ -40,14 +49,8 @@ input_filename = "ai-spam.txt"
 output_filename = "ai-spam-abp.txt"
 
 source = input_dir / input_filename
-lines = source.read_text(encoding="utf-8", newline="").splitlines()
 
-entries = [entry for entry in lines if len(entry) > 0]
-
-for entry in entries:
-    check_fqdn(entry)
-
-
+entries = read_entries(source)
 
 now = datetime.now(tz=timezone.utc)
 
