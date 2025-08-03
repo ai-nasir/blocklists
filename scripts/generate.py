@@ -53,15 +53,15 @@ source = input_dir / input_filename
 
 entries = read_entries(source)
 
-now = datetime.now(tz=timezone.utc)
+now = datetime.now(timezone.utc)
 
 data = {
     "source": source.stem,
     "version": now.strftime("%Y%m%d%H%M%S"),
-    "title": "AI Spam",
-    "description": "Target websites that fraudulently host AI-generated content masquerading as human-authored",
+    "title": "Ai-nasir's AI-Authored Content Blocklist",
+    "description": "Block websites that deceptively serve AI-generated content as human-authored.",
     "project_url": PROJECT_URL,
-    "last_modified": now.isoformat(),
+    "last_modified": now.isoformat(timespec="seconds"),
     "entries": entries
 }
 
