@@ -36,7 +36,8 @@ def read_entries(source):
 
 def render(template_file, output_dir, templates, data):
     base = data['source']
-    output_filename = f"{base}-{template_file.stem}.txt"
+    format = template_file.stem
+    output_filename = f"{base}-{format}.txt"
 
     template = templates.get_template(template_file.name)
     rendered_output = template.render_unicode(**data)
@@ -45,8 +46,8 @@ def render(template_file, output_dir, templates, data):
     target.write_bytes(rendered_output.encode())
 
 
-input_dir = Path.cwd().parent
-input_filename = "ai-spam.txt"
+input_dir = Path.cwd().parent / "sources"
+input_filename = "ai-authored.txt"
 
 source = input_dir / input_filename
 
@@ -65,11 +66,11 @@ data = {
 }
 
 
-output_dir = Path.cwd().parent
 template_dir = Path.cwd() / "templates"
-
 temp_mako_path = tempfile.mkdtemp(prefix = "mako_modules")
 templates = TemplateLookup(directories=[template_dir], module_directory=temp_mako_path)
+
+output_dir = Path.cwd().parent / "lists"
 
 for template_file in template_dir.glob('*.txt'):
     render(template_file, output_dir, templates, data)
