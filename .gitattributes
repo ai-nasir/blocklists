@@ -1,1 +1,2 @@
-*.txt linguist-language=AdBlock linguist-detectable
+*-abp.txt linguist-language=AdBlock linguist-detectable
+*.txt linguist-detectable
