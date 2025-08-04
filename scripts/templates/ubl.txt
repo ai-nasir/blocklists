@@ -1,0 +1,9 @@
+---
+name: ${ title }
+description: ${ description }
+homepage: ${ project_url }
+version: ${ version }
+---
+% for entry in entries:
+*://*.${ entry }/*
+% endfor
