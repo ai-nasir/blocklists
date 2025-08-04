@@ -35,7 +35,7 @@ def read_entries(source):
     return entries
 
 def render(template_file, output_dir, templates, data):
-    base = data['source']
+    base = data["source"]
     format = template_file.stem
     output_filename = f"{base}-{format}.txt"
 
@@ -72,7 +72,7 @@ templates = TemplateLookup(directories=[template_dir], module_directory=temp_mak
 
 output_dir = Path.cwd().parent / "lists"
 
-for template_file in template_dir.glob('*.txt'):
+for template_file in template_dir.glob("*.txt"):
     render(template_file, output_dir, templates, data)
 
 shutil.rmtree(temp_mako_path);
