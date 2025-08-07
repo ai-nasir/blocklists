@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-08-07T03:33:37+00:00
-! Version: 20250807033337
-! Entries: 23
+! Last modified: 2025-08-07T03:37:22+00:00
+! Version: 20250807033722
+! Entries: 24
 !
 ||chefsresource.com^
 ||cooknight.net^
@@ -23,6 +23,7 @@
 ||housefixmaster.com^
 ||leafio.net^
 ||liquidinsider.com^
+||matthewbikelog.com^
 ||mealsmade.net^
 ||myhomeniche.com^
 ||nootropicsplanet.com^
