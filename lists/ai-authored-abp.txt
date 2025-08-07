@@ -4,13 +4,14 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-08-07T02:35:41+00:00
-! Version: 20250807023541
-! Entries: 22
+! Last modified: 2025-08-07T03:33:37+00:00
+! Version: 20250807033337
+! Entries: 23
 !
 ||chefsresource.com^
 ||cooknight.net^
 ||cookvio.com^
+||danieldigitaldiary.com^
 ||delifo.net^
 ||flavorinsider.com^
 ||foodblogalliance.com^
