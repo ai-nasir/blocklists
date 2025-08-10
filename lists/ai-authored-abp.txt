@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-08-10T13:02:39+00:00
-! Version: 20250810130239
-! Entries: 31
+! Last modified: 2025-08-10T13:48:32+00:00
+! Version: 20250810134832
+! Entries: 32
 !
 ||chefsresource.com^
 ||chrisadventurespics.com^
@@ -16,6 +16,7 @@
 ||danieldigitaldiary.com^
 ||delifo.net^
 ||drewcaptures.com^
+||fastercapital.com^
 ||flavorinsider.com^
 ||foodblogalliance.com^
 ||glitteringgenerality.com^
