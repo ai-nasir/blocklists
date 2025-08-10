@@ -2,7 +2,7 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/blocklists
-version: 20250810134832
+version: 20250810141253
 ---
 *://*.chefsresource.com/*
 *://*.chrisadventurespics.com/*
@@ -30,6 +30,7 @@ version: 20250810134832
 *://*.nootropicsplanet.com/*
 *://*.oxylabs.io/*
 *://*.privateproxyguide.com/*
+*://*.proxylists.org/*
 *://*.shiftychevre.com/*
 *://*.splicedonline.com/*
 *://*.tastepursuits.com/*
