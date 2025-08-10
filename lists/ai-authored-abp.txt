@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-08-10T14:52:18+00:00
-! Version: 20250810145218
-! Entries: 37
+! Last modified: 2025-08-10T20:41:25+00:00
+! Version: 20250810204125
+! Entries: 38
 !
 ||chefsresource.com^
 ||chrisadventurespics.com^
@@ -45,3 +45,4 @@
 ||tastioo.com^
 ||toiletsense.net^
 ||vtechinsider.com^
+||youstable.com^
