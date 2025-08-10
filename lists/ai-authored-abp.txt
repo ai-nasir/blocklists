@@ -4,12 +4,13 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-08-10T14:12:53+00:00
-! Version: 20250810141253
-! Entries: 33
+! Last modified: 2025-08-10T14:22:37+00:00
+! Version: 20250810142237
+! Entries: 34
 !
 ||chefsresource.com^
 ||chrisadventurespics.com^
+||cloudzy.com^
 ||clrn.org^
 ||cooknight.net^
 ||cookvio.com^
