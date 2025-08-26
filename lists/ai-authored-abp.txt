@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-08-25T23:31:42+00:00
-! Version: 20250825233142
-! Entries: 43
+! Last modified: 2025-08-26T18:48:36+00:00
+! Version: 20250826184836
+! Entries: 44
 !
 ||akadata.ltd^
 ||brainly.com^
@@ -26,6 +26,7 @@
 ||glitteringgenerality.com^
 ||grillstory.net^
 ||hairspeaks.net^
+||hardwarealdia.com^
 ||homefixmagic.com^
 ||homescale.net^
 ||hostwinds.com^
