@@ -2,7 +2,7 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/blocklists
-version: 20250830160456
+version: 20250830172619
 ---
 *://*.akadata.ltd/*
 *://*.allinthedifference.com/*
@@ -51,6 +51,7 @@ version: 20250830160456
 *://*.splicedonline.com/*
 *://*.tastepursuits.com/*
 *://*.tastioo.com/*
+*://*.thelinuxcode.com/*
 *://*.toiletsense.net/*
 *://*.veronikasadventure.com/*
 *://*.vtechinsider.com/*
