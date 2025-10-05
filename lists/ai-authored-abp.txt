@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-09-21T14:09:53+00:00
-! Version: 20250921140953
-! Entries: 56
+! Last modified: 2025-10-05T13:54:43+00:00
+! Version: 20251005135443
+! Entries: 57
 !
 ||akadata.ltd^
 ||allinthedifference.com^
@@ -21,6 +21,7 @@
 ||cooknight.net^
 ||cookvio.com^
 ||danieldigitaldiary.com^
+||db-electronics.ca^
 ||delifo.net^
 ||dlightdaily.com^
 ||drewcaptures.com^
