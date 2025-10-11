@@ -4,12 +4,13 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-10-05T13:54:43+00:00
-! Version: 20251005135443
-! Entries: 57
+! Last modified: 2025-10-11T14:46:22+00:00
+! Version: 20251011144622
+! Entries: 58
 !
 ||akadata.ltd^
 ||allinthedifference.com^
+||araqev.com^
 ||aventurauniversal.com^
 ||bogardhealth.com^
 ||brainly.com^
