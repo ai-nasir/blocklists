@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-10-27T17:57:59+00:00
-! Version: 20251027175759
-! Entries: 67
+! Last modified: 2025-10-27T18:00:29+00:00
+! Version: 20251027180029
+! Entries: 68
 !
 ||akadata.ltd^
 ||allinthedifference.com^
@@ -72,6 +72,7 @@
 ||toiletsense.net^
 ||velokrivbass.com^
 ||veronikasadventure.com^
+||vgstravel.com^
 ||visionarylead.org^
 ||vtechinsider.com^
 ||youstable.com^
