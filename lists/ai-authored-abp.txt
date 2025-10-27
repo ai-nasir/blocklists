@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-10-27T18:11:29+00:00
-! Version: 20251027181129
-! Entries: 73
+! Last modified: 2025-10-27T18:12:03+00:00
+! Version: 20251027181203
+! Entries: 74
 !
 ||akadata.ltd^
 ||allinthedifference.com^
@@ -53,6 +53,7 @@
 ||mealsmade.net^
 ||mobilewitch.com^
 ||myhomeniche.com^
+||nabookarts.com^
 ||namecontainer.com^
 ||nerdytechblog.com^
 ||netnut.io^
