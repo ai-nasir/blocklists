@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-10-27T18:12:03+00:00
-! Version: 20251027181203
-! Entries: 74
+! Last modified: 2025-10-27T18:13:07+00:00
+! Version: 20251027181307
+! Entries: 75
 !
 ||akadata.ltd^
 ||allinthedifference.com^
@@ -65,6 +65,7 @@
 ||privateproxyguide.com^
 ||proxylists.org^
 ||proxyscrape.com^
+||samosguide.com^
 ||shiftychevre.com^
 ||smartcdripper.com^
 ||softhandtech.com^
