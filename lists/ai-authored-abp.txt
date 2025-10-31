@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-10-31T00:07:07+00:00
-! Version: 20251031000707
-! Entries: 87
+! Last modified: 2025-10-31T00:12:24+00:00
+! Version: 20251031001224
+! Entries: 88
 !
 ||3d-ace.com^
 ||3dviewermax.com^
@@ -26,6 +26,7 @@
 ||clrn.org^
 ||cooknight.net^
 ||cookvio.com^
+||cyber-fox.net^
 ||danieldigitaldiary.com^
 ||db-electronics.ca^
 ||delifo.net^
