@@ -2,7 +2,7 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/blocklists
-version: 20251101230815
+version: 20251101233222
 ---
 *://*.3d-ace.com/*
 *://*.3dviewermax.com/*
@@ -80,6 +80,7 @@ version: 20251101230815
 *://*.shiftychevre.com/*
 *://*.smartcdripper.com/*
 *://*.softhandtech.com/*
+*://*.soluvas.com/*
 *://*.splicedonline.com/*
 *://*.tastepursuits.com/*
 *://*.tastioo.com/*
