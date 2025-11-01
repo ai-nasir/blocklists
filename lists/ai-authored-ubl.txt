@@ -2,7 +2,7 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/blocklists
-version: 20251101190622
+version: 20251101191545
 ---
 *://*.3d-ace.com/*
 *://*.3dviewermax.com/*
@@ -92,4 +92,5 @@ version: 20251101190622
 *://*.visao.app/*
 *://*.visionarylead.org/*
 *://*.vtechinsider.com/*
+*://*.yogapip.com/*
 *://*.youstable.com/*

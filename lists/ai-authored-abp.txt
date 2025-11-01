@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-11-01T19:06:22+00:00
-! Version: 20251101190622
-! Entries: 89
+! Last modified: 2025-11-01T19:15:45+00:00
+! Version: 20251101191545
+! Entries: 90
 !
 ||3d-ace.com^
 ||3dviewermax.com^
@@ -96,4 +96,5 @@
 ||visao.app^
 ||visionarylead.org^
 ||vtechinsider.com^
+||yogapip.com^
 ||youstable.com^
