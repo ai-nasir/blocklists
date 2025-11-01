@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-11-01T22:43:46+00:00
-! Version: 20251101224346
-! Entries: 92
+! Last modified: 2025-11-01T23:08:15+00:00
+! Version: 20251101230815
+! Entries: 93
 !
 ||3d-ace.com^
 ||3dviewermax.com^
@@ -36,6 +36,7 @@
 ||drewcaptures.com^
 ||drzlc.com^
 ||englishgrammarzone.com^
+||eslblock.com^
 ||fastercapital.com^
 ||fergusauto.com^
 ||fileformat.com^
