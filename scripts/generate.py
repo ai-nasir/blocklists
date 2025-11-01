@@ -34,6 +34,11 @@ def read_entries(source):
 
     return entries
 
+def write_entries(target, entries):
+    text = "\n".join(entries)
+
+    target.write_text(text, encoding="utf-8", newline="")
+
 def render(template_file, output_dir, templates, data):
     base = data["source"]
     format = template_file.stem
@@ -52,6 +57,8 @@ input_filename = "ai-authored.txt"
 source = input_dir / input_filename
 
 entries = read_entries(source)
+
+write_entries(source, entries)
 
 now = datetime.now(timezone.utc)
 
