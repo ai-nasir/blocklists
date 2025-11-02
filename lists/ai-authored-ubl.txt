@@ -2,7 +2,7 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/blocklists
-version: 20251102134538
+version: 20251102135112
 ---
 *://*.3d-ace.com/*
 *://*.3dviewermax.com/*
@@ -72,6 +72,7 @@ version: 20251102134538
 *://*.oxylabs.io/*
 *://*.pay2vault.com/*
 *://*.pinnacleproxy.com/*
+*://*.piquredinsecte.com/*
 *://*.prayerrequest.com/*
 *://*.privateproxyguide.com/*
 *://*.proxylists.org/*

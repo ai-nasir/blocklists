@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-11-02T13:45:38+00:00
-! Version: 20251102134538
-! Entries: 95
+! Last modified: 2025-11-02T13:51:12+00:00
+! Version: 20251102135112
+! Entries: 96
 !
 ||3d-ace.com^
 ||3dviewermax.com^
@@ -76,6 +76,7 @@
 ||oxylabs.io^
 ||pay2vault.com^
 ||pinnacleproxy.com^
+||piquredinsecte.com^
 ||prayerrequest.com^
 ||privateproxyguide.com^
 ||proxylists.org^
