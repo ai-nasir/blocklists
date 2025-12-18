@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-12-18T13:33:34+00:00
-! Version: 20251218133334
-! Entries: 108
+! Last modified: 2025-12-18T13:35:40+00:00
+! Version: 20251218133540
+! Entries: 109
 !
 ||1gbits.com^
 ||3d-ace.com^
@@ -81,6 +81,7 @@
 ||nerdytechblog.com^
 ||netnut.io^
 ||nootropicsplanet.com^
+||optnode.com^
 ||ourcutebabies.com^
 ||oxylabs.io^
 ||pay2vault.com^

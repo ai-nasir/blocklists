@@ -2,7 +2,7 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/blocklists
-version: 20251218133334
+version: 20251218133540
 ---
 *://*.1gbits.com/*
 *://*.3d-ace.com/*
@@ -77,6 +77,7 @@ version: 20251218133334
 *://*.nerdytechblog.com/*
 *://*.netnut.io/*
 *://*.nootropicsplanet.com/*
+*://*.optnode.com/*
 *://*.ourcutebabies.com/*
 *://*.oxylabs.io/*
 *://*.pay2vault.com/*
