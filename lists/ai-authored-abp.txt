@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-12-18T12:41:22+00:00
-! Version: 20251218124122
-! Entries: 107
+! Last modified: 2025-12-18T13:33:34+00:00
+! Version: 20251218133334
+! Entries: 108
 !
 ||1gbits.com^
 ||3d-ace.com^
@@ -95,6 +95,7 @@
 ||smartcdripper.com^
 ||softhandtech.com^
 ||soluvas.com^
+||solveyourphone.com^
 ||solveyourtech.com^
 ||splicedonline.com^
 ||supportyourtech.com^
