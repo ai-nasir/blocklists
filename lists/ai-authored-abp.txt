@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-12-18T11:42:17+00:00
-! Version: 20251218114217
-! Entries: 102
+! Last modified: 2025-12-18T11:42:56+00:00
+! Version: 20251218114256
+! Entries: 103
 !
 ||1gbits.com^
 ||3d-ace.com^
@@ -55,6 +55,7 @@
 ||homescale.net^
 ||hostwinds.com^
 ||housefixmaster.com^
+||i5apps.com^
 ||imagine.io^
 ||imhvacmarketing.com^
 ||indigosoftwarecompany.com^
