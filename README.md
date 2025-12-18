@@ -10,8 +10,9 @@ there are no bans in sight, and the passage of time will not decay the vast corp
 onto the internet in websites, songs, videos, and podcasts, into scientific papers and literature, and, thanks to some
 particularly heinous people, even onto the pages of ink-and-paper books.
 
-Being somewhat of an expert in low quality ~~copper~~ content myself, this project is a small, vain attempt at
-stemming the tide, if only a little.
+Being somewhat of an expert in low quality
+[~~copper~~](https://en.wikipedia.org/wiki/Complaint_tablet_to_Ea-n%C4%81%E1%B9%A3ir) _content_ myself, this project is
+a small, vain attempt at stemming the tide, if only a little.
 
 
 ## **AI-Authored Content Blocklist**
