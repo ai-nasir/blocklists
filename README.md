@@ -5,7 +5,7 @@ of all steel produced worldwide thereafter. Thankfully, with nuclear testing ban
 radiation levels have nearly fallen all the way back to pre-1945 readings, and we are no longer forced to scavenge
 uncontaminated steel from pre-nuclear shipwrecks to make radiation-sensitive tools and medical instruments. 
 
-Today, generative AI is insidiously contaminating something far more important: knowledge. Unlike with nuclear bombs,
+Today, generative AI is insidiously contaminating something far more precious: knowledge. Unlike with nuclear bombs,
 there are no bans in sight, and the passage of time will not decay the vast corpus of hollow words being vomited forth
 onto the internet in websites, songs, videos, and podcasts, into scientific papers and literature, and, thanks to some
 particularly heinous people, even onto the pages of ink-and-paper books.
