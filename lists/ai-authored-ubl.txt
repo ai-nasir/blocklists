@@ -2,7 +2,7 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/blocklists
-version: 20251218123137
+version: 20251218123433
 ---
 *://*.1gbits.com/*
 *://*.3d-ace.com/*
@@ -65,6 +65,7 @@ version: 20251218123137
 *://*.leafybark.com/*
 *://*.linuxvox.com/*
 *://*.liquidinsider.com/*
+*://*.masteryourtech.com/*
 *://*.matthewbikelog.com/*
 *://*.mealsmade.net/*
 *://*.mobilewitch.com/*
