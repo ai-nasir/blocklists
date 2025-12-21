@@ -4,13 +4,14 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-12-21T13:22:34+00:00
-! Version: 20251221132234
-! Entries: 111
+! Last modified: 2025-12-21T22:43:19+00:00
+! Version: 20251221224319
+! Entries: 112
 !
 ||1gbits.com^
 ||3d-ace.com^
 ||3dviewermax.com^
+||aeanet.org^
 ||akadata.ltd^
 ||allinthedifference.com^
 ||answeryourtech.com^
