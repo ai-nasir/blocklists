@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-12-22T23:53:46+00:00
-! Version: 20251222235346
-! Entries: 113
+! Last modified: 2025-12-30T12:37:28+00:00
+! Version: 20251230123728
+! Entries: 114
 !
 ||1gbits.com^
 ||3d-ace.com^
@@ -73,6 +73,7 @@
 ||linuxvox.com^
 ||liquidinsider.com^
 ||live2tech.com^
+||luascripts.com^
 ||masteryourtech.com^
 ||matthewbikelog.com^
 ||mealsmade.net^
