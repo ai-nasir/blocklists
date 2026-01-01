@@ -2,7 +2,7 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/blocklists
-version: 20260101225549
+version: 20260101233930
 ---
 *://*.1gbits.com/*
 *://*.3d-ace.com/*
@@ -77,6 +77,7 @@ version: 20260101225549
 *://*.mealsmade.net/*
 *://*.mobilewitch.com/*
 *://*.modelo.io/*
+*://*.mojoauth.com/*
 *://*.myhomeniche.com/*
 *://*.nabookarts.com/*
 *://*.namecontainer.com/*
