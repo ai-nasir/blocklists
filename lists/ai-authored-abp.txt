@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/blocklists
 ! License: https://github.com/ai-nasir/blocklists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2025-12-30T12:37:28+00:00
-! Version: 20251230123728
-! Entries: 114
+! Last modified: 2026-01-01T17:50:51+00:00
+! Version: 20260101175051
+! Entries: 115
 !
 ||1gbits.com^
 ||3d-ace.com^
@@ -28,6 +28,7 @@
 ||cloudns.net^
 ||cloudzy.com^
 ||clrn.org^
+||codestudy.net^
 ||cooknight.net^
 ||cookvio.com^
 ||cyber-fox.net^
