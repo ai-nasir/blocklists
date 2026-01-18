@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/filterlists
 ! License: https://github.com/ai-nasir/filterlists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2026-01-18T02:02:42+00:00
-! Version: 20260118020242
-! Entries: 118
+! Last modified: 2026-01-18T02:39:01+00:00
+! Version: 20260118023901
+! Entries: 119
 !
 ||1gbits.com^
 ||3d-ace.com^
@@ -16,6 +16,7 @@
 ||allinthedifference.com^
 ||answeryourtech.com^
 ||araqev.com^
+||artofcode.org^
 ||aventurauniversal.com^
 ||beyondpinkworld.com^
 ||bogardhealth.com^
