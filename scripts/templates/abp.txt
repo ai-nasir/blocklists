@@ -9,5 +9,9 @@
 ! Entries: ${ len(entries) }
 !
 % for entry in entries:
-||${ entry }^
+  % if entry.allow:
+@@||${ entry.hostname}^
+  % else:
+||${ entry.hostname }^
+  %endif
 % endfor

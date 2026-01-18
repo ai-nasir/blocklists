@@ -5,5 +5,9 @@ homepage: ${ project_url }
 version: ${ version }
 ---
 % for entry in entries:
-*://*.${ entry }/*
+  % if entry.allow:
+@*://*.${ entry.hostname }/*
+  % else:
+*://*.${ entry.hostname }/*
+  %endif
 % endfor
