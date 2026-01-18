@@ -15,7 +15,7 @@ cadexchanger.com
 celebritycaster.com
 chefsresource.com
 chrisadventurespics.com
-cloudinary.com
+^cloudinary.com
 cloudns.net
 cloudzy.com
 clrn.org
