@@ -5,7 +5,7 @@ from pathlib import Path
 from mako.template import Template
 from mako.lookup import TemplateLookup
 
-PROJECT_URL = "https://github.com/ai-nasir/blocklists"
+PROJECT_URL = "https://github.com/ai-nasir/filterlists"
 
 RFC1034_ISH_FQDN = re.compile(r"^([a-z0-9-]{1,63}\.)+[a-z]{1,63}$")
 

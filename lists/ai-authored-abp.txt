@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Ai-nasir's AI-Authored Content Blocklist
 ! Description: Block websites that deceptively serve AI-generated content as human-authored.
-! Homepage: https://github.com/ai-nasir/blocklists
-! License: https://github.com/ai-nasir/blocklists/LICENSE
+! Homepage: https://github.com/ai-nasir/filterlists
+! License: https://github.com/ai-nasir/filterlists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2026-01-01T23:41:12+00:00
-! Version: 20260101234112
+! Last modified: 2026-01-18T02:02:42+00:00
+! Version: 20260118020242
 ! Entries: 118
 !
 ||1gbits.com^

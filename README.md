@@ -1,19 +1,10 @@
-# Ai-nāṣir's Blocklists
+# Ai-nāṣir's Filter Lists
 
-On 16 July 1945, the first of many nuclear bombs was detonated, collectively resulting in the radioactive contamination
-of all steel produced worldwide thereafter. Thankfully, with nuclear testing bans and the passage of time, background
-radiation levels have nearly fallen all the way back to pre-1945 readings, and we are no longer forced to scavenge
-uncontaminated steel from pre-nuclear shipwrecks to make radiation-sensitive tools and medical instruments. 
-
-Today, generative AI is insidiously contaminating something far more precious: knowledge. Unlike with nuclear bombs,
-there are no bans in sight, and the passage of time will not decay the vast corpus of hollow words being vomited forth
-onto the internet in websites, songs, videos, and podcasts, into scientific papers and literature, and, thanks to some
-particularly heinous people, even onto the pages of ink-and-paper books.
+Improve your experience of the web by filtering out the slop!
 
 Being somewhat of an expert in low quality
 [~~copper~~](https://en.wikipedia.org/wiki/Complaint_tablet_to_Ea-n%C4%81%E1%B9%A3ir) _content_ myself, this project is
-a small, vain attempt at stemming the tide, if only a little.
-
+an attempt at stemming the tide, if only a little.
 
 ## **AI-Authored Content Blocklist**
 
@@ -31,10 +22,9 @@ If they couldn't be bothered to write it, why should anyone be bothered to see i
 Includes domains that have at any time published content where there is a high degree of certainty that the content is
 not human-authored. 
 
-Every entry is backed up by corroborating evidence. Given the demonstrated nature of those publishing such content,
-this evidence can sadly not be shared publicly, as doing so could assist in evading detection. That said, Wikipedia
-maintains a guide to [signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) that has
-assisted in the inclusion of several entries.
+Every entry is backed up by corroborating evidence. Unfortunately, this evidence cannot be shared publicly as doing so
+could assist bad actors in evading detection. That said, Wikipedia maintains a guide to [signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) that
+has assisted in the inclusion of several entries.
 
 ### Removal Criteria
 
