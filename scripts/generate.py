@@ -12,11 +12,16 @@ PROJECT_URL = "https://github.com/ai-nasir/filterlists"
 
 RFC1034_ISH_FQDN = re.compile(r"^([a-z0-9-]{1,63}\.)+[a-z]{1,63}$")
 
+ALLOW_TOKEN = "-"
+EXACT_TOKEN = "^"
+TOKENS = re.compile(f"^([{ALLOW_TOKEN}{EXACT_TOKEN}]*)(.+)$")
+
 
 @dataclass
 class Entry:
     hostname: str
     allow: bool
+    exact: bool
     sortkey: str
 
 
@@ -43,26 +48,43 @@ def check_fqdn(dn):
 
 
 def to_entry(line):
-    hostname = line
     allow = False
-    sortkey = line
+    exact = False
 
-    if line[0] == "-":
+    match = TOKENS.search(line)
+    tokens = match.group(1)
+    hostname = match.group(2)
+    sortkey = hostname
+
+    if ALLOW_TOKEN in tokens:
+        # Allow, presumably for a first-level subdomain of a blocked domain
         allow = True
-        hostname = line[1:]
-        # Assume that we're allowing the first-level subdomain of a blocked domain, eg. cdn.example.net vs. example.net
-        # We would like the entry to be sorted adjacent its parent, so transform it from sub.domain to domain-sub
+        # We prefer the entry be sorted adjacent its parent, so switch from sub.domain.tld to domain.tld-sub
         parts = hostname.partition(".")
         sortkey = f"{parts[2]}-{parts[0]}"
 
-    return Entry(hostname, allow, sortkey)
+    if EXACT_TOKEN in tokens:
+        # Exact hostname only, to avoid blocking CDN subdomains
+        exact = True
+
+    return Entry(
+        hostname=hostname,
+        allow=allow,
+        exact=exact,
+        sortkey=sortkey
+    )
 
 
 def to_line(entry):
-    if entry.allow:
-        return f"-{entry.hostname}"
+    tokens = ""
 
-    return entry.hostname
+    if entry.allow:
+        tokens += ALLOW_TOKEN
+
+    if entry.exact:
+        tokens += EXACT_TOKEN
+
+    return f"{tokens}{entry.hostname}"
 
 
 def read_entries(source):
@@ -77,7 +99,7 @@ def read_entries(source):
 
     for a, b in pairwise(entries):
         if a.hostname == b.hostname:
-            raise ValueError(f'"{a}" is duplicated')
+            raise ValueError(f'"{a.hostname}" is duplicated')
 
     return entries
 

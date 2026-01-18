@@ -9,9 +9,13 @@
 ! Entries: ${ len(entries) }
 !
 % for entry in entries:
-  % if entry.allow:
-@@||${ entry.hostname}^
-  % else:
-||${ entry.hostname }^
-  %endif
+    % if entry.allow:
+@@\
+    % endif
+    % if entry.exact:
+|*://\
+    % else:
+||\
+    % endif
+${ entry.hostname }^
 % endfor
