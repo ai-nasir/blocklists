@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/filterlists
 ! License: https://github.com/ai-nasir/filterlists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2026-01-18T23:48:47+00:00
-! Version: 20260118234847
-! Entries: 127
+! Last modified: 2026-01-19T00:05:54+00:00
+! Version: 20260119000554
+! Entries: 128
 !
 ||1gbits.com^
 ||3d-ace.com^
@@ -114,6 +114,7 @@
 ||sophiarecipe.com^
 ||splicedonline.com^
 ||ssojet.com^
+||studentbridge.com^
 ||suche-postleitzahl.org^
 ||supportyourtech.com^
 ||tastepursuits.com^
