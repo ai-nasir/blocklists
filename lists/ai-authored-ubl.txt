@@ -2,7 +2,7 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/filterlists
-version: 20260122202911
+version: 20260122203621
 ---
 *://*.1gbits.com/*
 *://*.3d-ace.com/*
@@ -37,6 +37,7 @@ version: 20260122202911
 *://*.db-electronics.ca/*
 *://*.decisiondesk.com/*
 *://*.delifo.net/*
+*://*.devcodef1.com/*
 *://*.devtodevops.com/*
 *://*.devtutorial.io/*
 *://*.dlightdaily.com/*
