@@ -2,7 +2,7 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/filterlists
-version: 20260121212709
+version: 20260122202911
 ---
 *://*.1gbits.com/*
 *://*.3d-ace.com/*
@@ -26,6 +26,7 @@ version: 20260121212709
 *://*.cloudns.net/*
 *://*.cloudzy.com/*
 *://*.clrn.org/*
+*://*.codeease.net/*
 *://*.codestudy.net/*
 *://*.compile7.org/*
 *://*.cooknight.net/*
