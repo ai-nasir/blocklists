@@ -10,6 +10,8 @@ artofcode.org
 ashborland.com
 aventurauniversal.com
 beyondpinkworld.com
+^blazingcdn.com
+blog.blazingcdn.com
 bogardhealth.com
 brainly.com
 cadexchanger.com
