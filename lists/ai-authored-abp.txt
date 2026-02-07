@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/filterlists
 ! License: https://github.com/ai-nasir/filterlists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2026-02-07T18:11:42+00:00
-! Version: 20260207181142
-! Entries: 143
+! Last modified: 2026-02-07T18:37:01+00:00
+! Version: 20260207183701
+! Entries: 144
 !
 ||1gbits.com^
 ||3d-ace.com^
@@ -133,6 +133,7 @@
 ||tastioo.com^
 ||techbloat.com^
 ||techjury.net^
+||techyorker.com^
 ||thelinuxcode.com^
 ||theserverhost.com^
 ||thetechylife.com^
