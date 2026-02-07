@@ -2,8 +2,9 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/filterlists
-version: 20260207204008
+version: 20260207224007
 ---
+*://*.1902studios.com/*
 *://*.1gbits.com/*
 *://*.256realty.com/*
 *://*.2amagazine.com/*
@@ -28,9 +29,11 @@ version: 20260207204008
 *://*.bikemojo.com/*
 *://*.bikewise.io/*
 *://*.bindassnews.com/*
+*://*.bishopwcmartin.com/*
 *://blazingcdn.com/*
 *://*.blog.blazingcdn.com/*
 *://*.bogardhealth.com/*
+*://*.br-stone.net/*
 *://*.brainly.com/*
 *://*.brentwoodsurgery.com/*
 *://*.bridgecrest.co.uk/*
@@ -62,6 +65,7 @@ version: 20260207204008
 *://*.dar-care.com/*
 *://*.darkskiesfilm.com/*
 *://*.darwinsdata.com/*
+*://*.datelinemovies.com/*
 *://*.db-electronics.ca/*
 *://*.decisiondesk.com/*
 *://*.delifo.net/*
@@ -74,12 +78,14 @@ version: 20260207204008
 *://*.dppet.com/*
 *://*.drewcaptures.com/*
 *://*.drzlc.com/*
+*://*.eddmagazine.com/*
 *://*.eddymagazine.com/*
 *://*.elamatters.com/*
 *://*.elegantcreator.com/*
 *://*.englishgrammarzone.com/*
 *://*.enterinit.com/*
 *://*.eslblock.com/*
+*://*.evonygalore.co.uk/*
 *://*.expertbeacon.com/*
 *://*.fanooz.com/*
 *://*.fantasiapix.com/*
@@ -100,6 +106,7 @@ version: 20260207204008
 *://*.gbtimes.com/*
 *://*.geekchamp.com/*
 *://*.geekonfashion.com/*
+*://*.giftsoka.com/*
 *://*.glimsee.com/*
 *://*.glitteringgenerality.com/*
 *://*.glowyp.com/*
@@ -119,12 +126,14 @@ version: 20260207204008
 *://*.housefixmaster.com/*
 *://*.i5apps.com/*
 *://*.icsehub.com/*
+*://*.igsty.blog/*
 *://*.ilovereels.co.uk/*
 *://*.imagine.io/*
 *://*.imagineergamess.com/*
 *://*.imhvacmarketing.com/*
 *://*.indigosoftwarecompany.com/*
 *://*.influencersgonewildblog.com/*
+*://*.infonesthub.co.uk/*
 *://*.informaticsview.com/*
 *://*.insiders-news.com/*
 *://*.inspiramagazine.co.uk/*
@@ -147,12 +156,14 @@ version: 20260207204008
 *://*.linuxvox.com/*
 *://*.liquidinsider.com/*
 *://*.live2tech.com/*
+*://*.lovepetplace.com/*
 *://*.luascripts.com/*
 *://*.lufanest.com/*
 *://*.lumemagazine.com/*
 *://*.lumerink.com/*
 *://*.lushpixel.co.uk/*
 *://*.luveletter.com/*
+*://*.magazinenyc.com/*
 *://*.magazinesbuzz.co.uk/*
 *://*.managementworksmedia.com/*
 *://*.marketbusinessideas.com/*
@@ -169,6 +180,7 @@ version: 20260207204008
 *://*.mojoauth.com/*
 *://*.musicayletras.co/*
 *://*.myhomeniche.com/*
+*://*.mynextmag.com/*
 *://*.nabookarts.com/*
 *://*.nafarescue.org/*
 *://*.namecontainer.com/*
@@ -176,6 +188,7 @@ version: 20260207204008
 *://*.netnut.io/*
 *://*.newasshop.com/*
 *://*.newsledger.co.uk/*
+*://*.newsswift.co.uk/*
 *://*.nextmagazine.co.uk/*
 *://*.nootropicsplanet.com/*
 *://*.nymagz.com/*
@@ -191,6 +204,7 @@ version: 20260207204008
 *://*.pay2vault.com/*
 *://*.peacequarters.com/*
 *://*.perusemagazine.com/*
+*://*.pickupmagazine.co.uk/*
 *://*.picukimagazine.org/*
 *://*.pinnacleproxy.com/*
 *://*.piquredinsecte.com/*
@@ -201,6 +215,7 @@ version: 20260207204008
 *://*.privateproxyguide.com/*
 *://*.proxylists.org/*
 *://*.proxyscrape.com/*
+*://*.psbios.co.uk/*
 *://*.psdgold.com/*
 *://*.psychtimespublication.com/*
 *://*.rabbieinhorn.com/*
@@ -212,6 +227,7 @@ version: 20260207204008
 *://*.samosguide.com/*
 *://*.scope24.net/*
 *://*.sddmagazine.co.uk/*
+*://*.sgtrends.org/*
 *://*.shiftychevre.com/*
 *://*.sigmasa.co.uk/*
 *://*.smartcdripper.com/*
@@ -228,6 +244,7 @@ version: 20260207204008
 *://*.suche-postleitzahl.org/*
 *://*.supportyourtech.com/*
 *://*.szechuanharrison.com/*
+*://*.tamildoohl.com/*
 *://*.tastepursuits.com/*
 *://*.tastioo.com/*
 *://*.tea4africa.org/*
@@ -252,6 +269,7 @@ version: 20260207204008
 *://*.theovations.com/*
 *://*.thepalacedream.com/*
 *://*.thepointm.com/*
+*://*.therawrap.co/*
 *://*.therootscellar.com/*
 *://*.theserverhost.com/*
 *://*.thetechnotricks.net/*
@@ -266,8 +284,10 @@ version: 20260207204008
 *://*.truerealtyvalue.com/*
 *://*.truyentiki.com/*
 *://*.tumfweko.com/*
+*://*.uknewspulse.co.uk/*
 *://*.ulamatters.com/*
 *://*.umatechnology.org/*
+*://*.uniquefitscrubs.com/*
 *://*.valueupinfo.com/*
 *://*.veiranda.com/*
 *://*.velokrivbass.com/*
@@ -284,6 +304,7 @@ version: 20260207204008
 *://*.windowtothebeauty.com/*
 *://*.wittymagazine.co.uk/*
 *://*.wkbn.co.uk/*
+*://*.wonderday.co.uk/*
 *://*.wouafpetitchien.com/*
 *://*.wowtechub.com/*
 *://*.writeworldwide.com/*
