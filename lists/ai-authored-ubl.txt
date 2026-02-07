@@ -2,7 +2,7 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/filterlists
-version: 20260207202526
+version: 20260207204008
 ---
 *://*.1gbits.com/*
 *://*.256realty.com/*
@@ -84,12 +84,15 @@ version: 20260207202526
 *://*.fanooz.com/*
 *://*.fantasiapix.com/*
 *://*.fastercapital.com/*
+*://*.faucetmag.com/*
 *://*.fergusauto.com/*
 *://*.fileformat.com/*
 *://*.fillmoretownship.com/*
+*://*.findmagazine.co.uk/*
 *://*.flavorinsider.com/*
 *://*.flippamagazine.co.uk/*
 *://*.foodblogalliance.com/*
+*://*.foodmins.com/*
 *://*.frissonhome.com/*
 *://*.gailvoice.com/*
 *://*.gatewaycatalog.com/*
@@ -123,6 +126,7 @@ version: 20260207202526
 *://*.indigosoftwarecompany.com/*
 *://*.influencersgonewildblog.com/*
 *://*.informaticsview.com/*
+*://*.insiders-news.com/*
 *://*.inspiramagazine.co.uk/*
 *://*.interiorredoux.com/*
 *://*.interlir.com/*
@@ -147,7 +151,9 @@ version: 20260207202526
 *://*.lufanest.com/*
 *://*.lumemagazine.com/*
 *://*.lumerink.com/*
+*://*.lushpixel.co.uk/*
 *://*.luveletter.com/*
+*://*.magazinesbuzz.co.uk/*
 *://*.managementworksmedia.com/*
 *://*.marketbusinessideas.com/*
 *://*.masonjarbreakfast.com/*
@@ -161,6 +167,7 @@ version: 20260207202526
 *://*.modelo.io/*
 *://*.modern-family.tv/*
 *://*.mojoauth.com/*
+*://*.musicayletras.co/*
 *://*.myhomeniche.com/*
 *://*.nabookarts.com/*
 *://*.nafarescue.org/*
@@ -173,6 +180,7 @@ version: 20260207202526
 *://*.nootropicsplanet.com/*
 *://*.nymagz.com/*
 *://*.onlyexperiencebusiness.com/*
+*://*.onlyfanss.co.uk/*
 *://*.optnode.com/*
 *://*.ourcutebabies.com/*
 *://*.oxylabs.io/*
@@ -198,8 +206,12 @@ version: 20260207202526
 *://*.rabbieinhorn.com/*
 *://*.rankhub.co.uk/*
 *://*.rawmags.com/*
+*://*.redwingnews.com/*
+*://*.rent-gigolo.com/*
 *://*.rosedollexpo.com/*
 *://*.samosguide.com/*
+*://*.scope24.net/*
+*://*.sddmagazine.co.uk/*
 *://*.shiftychevre.com/*
 *://*.sigmasa.co.uk/*
 *://*.smartcdripper.com/*
@@ -229,9 +241,11 @@ version: 20260207202526
 *://*.techyorker.com/*
 *://*.theblup.com/*
 *://*.thebusinesssky.com/*
+*://*.thefashionhob.com/*
 *://*.thefruityco.com/*
 *://*.thegeneralgrowths.com/*
 *://*.thehyperbusiness.com/*
+*://*.theinkonme.com/*
 *://*.thelinuxcode.com/*
 *://*.thenewcub.com/*
 *://*.thenomadicpanda.com/*
@@ -250,6 +264,7 @@ version: 20260207202526
 *://*.traveladdurl.com/*
 *://*.tributemosthaunted.co.uk/*
 *://*.truerealtyvalue.com/*
+*://*.truyentiki.com/*
 *://*.tumfweko.com/*
 *://*.ulamatters.com/*
 *://*.umatechnology.org/*

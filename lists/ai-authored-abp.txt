@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/filterlists
 ! License: https://github.com/ai-nasir/filterlists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2026-02-07T20:25:26+00:00
-! Version: 20260207202526
-! Entries: 271
+! Last modified: 2026-02-07T20:40:08+00:00
+! Version: 20260207204008
+! Entries: 286
 !
 ||1gbits.com^
 ||256realty.com^
@@ -88,12 +88,15 @@
 ||fanooz.com^
 ||fantasiapix.com^
 ||fastercapital.com^
+||faucetmag.com^
 ||fergusauto.com^
 ||fileformat.com^
 ||fillmoretownship.com^
+||findmagazine.co.uk^
 ||flavorinsider.com^
 ||flippamagazine.co.uk^
 ||foodblogalliance.com^
+||foodmins.com^
 ||frissonhome.com^
 ||gailvoice.com^
 ||gatewaycatalog.com^
@@ -127,6 +130,7 @@
 ||indigosoftwarecompany.com^
 ||influencersgonewildblog.com^
 ||informaticsview.com^
+||insiders-news.com^
 ||inspiramagazine.co.uk^
 ||interiorredoux.com^
 ||interlir.com^
@@ -151,7 +155,9 @@
 ||lufanest.com^
 ||lumemagazine.com^
 ||lumerink.com^
+||lushpixel.co.uk^
 ||luveletter.com^
+||magazinesbuzz.co.uk^
 ||managementworksmedia.com^
 ||marketbusinessideas.com^
 ||masonjarbreakfast.com^
@@ -165,6 +171,7 @@
 ||modelo.io^
 ||modern-family.tv^
 ||mojoauth.com^
+||musicayletras.co^
 ||myhomeniche.com^
 ||nabookarts.com^
 ||nafarescue.org^
@@ -177,6 +184,7 @@
 ||nootropicsplanet.com^
 ||nymagz.com^
 ||onlyexperiencebusiness.com^
+||onlyfanss.co.uk^
 ||optnode.com^
 ||ourcutebabies.com^
 ||oxylabs.io^
@@ -202,8 +210,12 @@
 ||rabbieinhorn.com^
 ||rankhub.co.uk^
 ||rawmags.com^
+||redwingnews.com^
+||rent-gigolo.com^
 ||rosedollexpo.com^
 ||samosguide.com^
+||scope24.net^
+||sddmagazine.co.uk^
 ||shiftychevre.com^
 ||sigmasa.co.uk^
 ||smartcdripper.com^
@@ -233,9 +245,11 @@
 ||techyorker.com^
 ||theblup.com^
 ||thebusinesssky.com^
+||thefashionhob.com^
 ||thefruityco.com^
 ||thegeneralgrowths.com^
 ||thehyperbusiness.com^
+||theinkonme.com^
 ||thelinuxcode.com^
 ||thenewcub.com^
 ||thenomadicpanda.com^
@@ -254,6 +268,7 @@
 ||traveladdurl.com^
 ||tributemosthaunted.co.uk^
 ||truerealtyvalue.com^
+||truyentiki.com^
 ||tumfweko.com^
 ||ulamatters.com^
 ||umatechnology.org^
