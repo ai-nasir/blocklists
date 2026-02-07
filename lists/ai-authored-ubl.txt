@@ -2,7 +2,7 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/filterlists
-version: 20260207233112
+version: 20260207235317
 ---
 *://*.1902studios.com/*
 *://*.1gbits.com/*
@@ -39,6 +39,7 @@ version: 20260207233112
 *://*.bishopwcmartin.com/*
 *://blazingcdn.com/*
 *://*.blog.blazingcdn.com/*
+*://*.blogsora.com/*
 *://*.bogardhealth.com/*
 *://*.br-stone.net/*
 *://*.brainly.com/*
@@ -77,6 +78,7 @@ version: 20260207233112
 *://*.dash-athletics.com/*
 *://*.datelinemovies.com/*
 *://*.db-electronics.ca/*
+*://*.decennale-btp.fr/*
 *://*.decisiondesk.com/*
 *://*.delifo.net/*
 *://*.devcodef1.com/*
@@ -163,6 +165,7 @@ version: 20260207233112
 *://*.jvcodes.com/*
 *://*.kahanchale.com/*
 *://*.kitchenmagician.co.uk/*
+*://*.knowingimagination.com/*
 *://*.lajanteaetoile.fr/*
 *://*.larus.net/*
 *://*.leafio.net/*
@@ -275,10 +278,12 @@ version: 20260207233112
 *://*.techinflare.com/*
 *://*.techjury.net/*
 *://*.techspoto.com/*
+*://*.techssla.com/*
 *://*.techstromy.com/*
 *://*.techtrendflow.com/*
 *://*.techyhype.co.uk/*
 *://*.techyorker.com/*
+*://*.templeknowledge.com/*
 *://*.theblup.com/*
 *://*.thebusinesssky.com/*
 *://*.thedallasdirectory.com/*
@@ -326,6 +331,7 @@ version: 20260207233112
 *://*.vtechinsider.com/*
 *://*.w3tutorials.net/*
 *://*.wegomaui.com/*
+*://*.werankhub.com/*
 *://*.whizweekly.co.uk/*
 *://*.windowtothebeauty.com/*
 *://*.wittymagazine.co.uk/*

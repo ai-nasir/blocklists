@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/filterlists
 ! License: https://github.com/ai-nasir/filterlists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2026-02-07T23:31:12+00:00
-! Version: 20260207233112
-! Entries: 333
+! Last modified: 2026-02-07T23:53:17+00:00
+! Version: 20260207235317
+! Entries: 339
 !
 ||1902studios.com^
 ||1gbits.com^
@@ -43,6 +43,7 @@
 ||bishopwcmartin.com^
 |*://blazingcdn.com^
 ||blog.blazingcdn.com^
+||blogsora.com^
 ||bogardhealth.com^
 ||br-stone.net^
 ||brainly.com^
@@ -81,6 +82,7 @@
 ||dash-athletics.com^
 ||datelinemovies.com^
 ||db-electronics.ca^
+||decennale-btp.fr^
 ||decisiondesk.com^
 ||delifo.net^
 ||devcodef1.com^
@@ -167,6 +169,7 @@
 ||jvcodes.com^
 ||kahanchale.com^
 ||kitchenmagician.co.uk^
+||knowingimagination.com^
 ||lajanteaetoile.fr^
 ||larus.net^
 ||leafio.net^
@@ -279,10 +282,12 @@
 ||techinflare.com^
 ||techjury.net^
 ||techspoto.com^
+||techssla.com^
 ||techstromy.com^
 ||techtrendflow.com^
 ||techyhype.co.uk^
 ||techyorker.com^
+||templeknowledge.com^
 ||theblup.com^
 ||thebusinesssky.com^
 ||thedallasdirectory.com^
@@ -330,6 +335,7 @@
 ||vtechinsider.com^
 ||w3tutorials.net^
 ||wegomaui.com^
+||werankhub.com^
 ||whizweekly.co.uk^
 ||windowtothebeauty.com^
 ||wittymagazine.co.uk^
