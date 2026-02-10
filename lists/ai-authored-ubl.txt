@@ -2,7 +2,7 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/filterlists
-version: 20260210001706
+version: 20260210174942
 ---
 *://*.1902studios.com/*
 *://*.1gbits.com/*
@@ -66,6 +66,7 @@ version: 20260210001706
 *://*.cafehavanali.com/*
 *://*.caltureindex.com/*
 *://*.captionsbuzz.com/*
+*://*.casinobookmark.net/*
 *://*.celebprowl.com/*
 *://*.celebritycaster.com/*
 *://*.celebritymagazine.co.uk/*
@@ -144,6 +145,7 @@ version: 20260210001706
 *://*.fillmoretownship.com/*
 *://*.financialauditcpa.com/*
 *://*.findmagazine.co.uk/*
+*://*.fixdecker.com/*
 *://*.fixpather.com/*
 *://*.flavorinsider.com/*
 *://*.flippamagazine.co.uk/*
@@ -316,6 +318,7 @@ version: 20260210001706
 *://*.rakinginthesavings.com/*
 *://*.rankhub.co.uk/*
 *://*.rawmags.com/*
+*://*.reactstateofmind.com/*
 *://*.recette-yaourt.fr/*
 *://*.redwingnews.com/*
 *://*.reelsmedia.co.uk/*
@@ -346,6 +349,7 @@ version: 20260210001706
 *://*.srcai.com/*
 *://*.ssojet.com/*
 *://*.studentbridge.com/*
+*://*.suburbanapologist.com/*
 *://*.suche-postleitzahl.org/*
 *://*.supportyourtech.com/*
 *://*.szechuanharrison.com/*
@@ -452,6 +456,7 @@ version: 20260210001706
 *://*.worldurbanpeak.com/*
 *://*.wouafpetitchien.com/*
 *://*.wowtechub.com/*
+*://*.wpshope.com/*
 *://*.writeworldwide.com/*
 *://*.yogapip.com/*
 *://*.yooooga.com/*
