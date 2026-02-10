@@ -2,7 +2,7 @@
 name: Ai-nasir's AI-Authored Content Blocklist
 description: Block websites that deceptively serve AI-generated content as human-authored.
 homepage: https://github.com/ai-nasir/filterlists
-version: 20260210192910
+version: 20260210193122
 ---
 *://*.1902studios.com/*
 *://*.1gbits.com/*
@@ -102,6 +102,7 @@ version: 20260210192910
 *://*.corebhag.com/*
 *://*.crunchnews.co.uk/*
 *://*.cyber-fox.net/*
+*://*.cyberplace.net/*
 *://*.cyclerdiary.com/*
 *://*.daily.uk.com/*
 *://*.dailybhoom.com/*
