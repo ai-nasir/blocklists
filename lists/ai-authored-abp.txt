@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/filterlists
 ! License: https://github.com/ai-nasir/filterlists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2026-02-10T19:31:22+00:00
-! Version: 20260210193122
-! Entries: 508
+! Last modified: 2026-02-11T23:41:44+00:00
+! Version: 20260211234144
+! Entries: 509
 !
 ||1902studios.com^
 ||1gbits.com^
@@ -264,6 +264,7 @@
 ||live2tech.com^
 ||lovepetplace.com^
 ||lovevish.com^
+||lowfodmapeating.com^
 ||luascripts.com^
 ||luckloungeland.com^
 ||lufanest.com^
