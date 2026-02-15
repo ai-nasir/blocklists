@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/ai-nasir/filterlists
 ! License: https://github.com/ai-nasir/filterlists/LICENSE
 ! Expires: 7 days (update frequency)
-! Last modified: 2026-02-11T23:41:44+00:00
-! Version: 20260211234144
-! Entries: 509
+! Last modified: 2026-02-15T11:49:52+00:00
+! Version: 20260215114952
+! Entries: 510
 !
 ||1902studios.com^
 ||1gbits.com^
@@ -351,6 +351,7 @@
 ||powerfulgummies.net^
 ||powermiss.com^
 ||prayerrequest.com^
+||pressstartgaming.com^
 ||privateproxyguide.com^
 ||probhag.com^
 ||proxylists.org^
